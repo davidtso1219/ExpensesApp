@@ -20,11 +20,11 @@ const ExpenseForm = (props) => {
     const newExpenseData = {
       title,
       amount,
-      date
+      date: new Date(date)
     }
 
     clearForm();
-    console.log(newExpenseData);
+    props.onAddNewExpense(newExpenseData);
     return newExpenseData;
   };
 
