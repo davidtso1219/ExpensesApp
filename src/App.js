@@ -5,9 +5,9 @@ import NewExpense from "./components/NewExpense/NewExpense";
 
 
 const INITIAL_EXPENSES = [
-  {id: 1, title: 'Car Insurance', amount: 295.67, date: new Date(2020, 7, 14)},
-  {id: 2, title: 'Foods', amount: 180.23, date: new Date(2020, 7, 12)},
-  {id: 3, title: 'Utilities', amount: 10.2, date: new Date(2020, 7, 1)},
+  {id: 1, title: 'Car Insurance', amount: 295.67, date: new Date(2022, 7, 14)},
+  {id: 2, title: 'Foods', amount: 180.23, date: new Date(2022, 6, 12)},
+  {id: 3, title: 'Utilities', amount: 10.2, date: new Date(2022, 1, 1)},
 ];
 
 const App = () => {
